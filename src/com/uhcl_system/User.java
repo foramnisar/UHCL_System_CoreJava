@@ -7,9 +7,8 @@ abstract class User {
 	private String major;
 	private String login;
 	private String password;
-
+	
 	// constructor
-
 	public User(String name, String major, String login, String password) {
 		super();
 		this.name = name;
@@ -19,7 +18,7 @@ abstract class User {
 	}
 
 	// abstract method
-
+	
 	abstract void viewMyCourses();
 
 	// getter and setter methods.
